@@ -91,11 +91,11 @@ try{
     .maybeSingle()
 
     if (error) throw error;
-    if(data){
-    }else{
-        res.status(404).json({mensagem: 'não encontrado'});
-
-    }
+    if (data){
+    res.json(data);
+} else {
+    res.status(404).json({mensagem: 'não encontrado'});
+}
 }catch (err) {
     next(err);
 
