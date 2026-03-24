@@ -1,7 +1,7 @@
 {
-    "name": "backend-cafe-horizonte",
+    "name": "backend-haruy-sushi",
     "version": "1.0.0",
-    "description": "API REST Cafe Horizonte",
+    "description": "API REST Haruy Sushi — Aula 6: Middlewares e Tratamento de Erros",
     "main": "server.js",
     "scripts": {
         "start": "node server.js",
