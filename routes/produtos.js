@@ -59,7 +59,7 @@ try{
     let consulta = supabase.from('produtos').select('*');
 
     if (categoriaId){
-        consulta = consulta.eq('categoriaId', categoriaid)
+        consulta = consulta.eq('categoriaId', categoriaId)
     }
 
     const {data, error} = await consulta.order('id', {ascending: true});
